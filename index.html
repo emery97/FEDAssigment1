@@ -1,0 +1,105 @@
+<!-- Define the HTML document type -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Set character encoding and page title -->
+    <meta charset="UTF-8">
+    <title>The Ronans</title>
+
+    <!-- Link to an external stylesheet (CSS) file -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <!-- Create a top navigation bar with links and dropdown menu -->
+    <div class="topnav">
+        <!-- Insert logo image -->
+        <img src="logo.png" alt="The Ronans">
+
+        <!-- Define navigation links and dropdown -->
+        <div class="topnav" id="myTopnav">
+            <a href="index2.html" class="active">Home</a>
+            <a href="#news">New Arrivals</a>
+
+            <!-- Dropdown menu -->
+            <div class="dropdown">
+                <button class="dropbtn">Shop
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Shop</a>
+                    <a href="#">New Arrivals</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <a href="">About Us</a>
+        </div>
+    </div>
+
+    <!-- Create a picture slideshow with controls -->
+    <div class="slideshow-container">
+        <!-- Define individual slides with images and captions -->
+        <div class="mySlides fade">
+            <img src="bag picture 1.jpg" alt="Seasonal Bags">
+        </div>
+
+        <div class="mySlides fade">
+            <img src = "bag picture 2.jpg" alt = "Fall Bags">
+        </div>
+
+        <div class="mySlides fade">
+            <!-- Slide 3 content -->
+        </div>
+
+        <!-- Add previous and next slide buttons -->
+        <a class="prev" onclick="plusSlides(-1)"></a>
+        <a class="next" onclick="plusSlides(1)"></a>
+    </div>
+
+    <!-- Add slide indicator dots and associated script -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Include JavaScript for slide functionality -->
+    <script>
+        // JavaScript functions for controlling slides
+    </script>
+
+    <!-- Create main content sections -->
+    <main>
+        <!-- Define individual content sections with headings and text -->
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>Content of Section 1 goes here.</p>
+        </section>
+
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>Content of Section 2 goes here.</p>
+        </section>
+
+        <section id="section3">
+            <h2>Section 3</h2>
+            <p>Content of Section 3 goes here.</p>
+        </section>
+    </main>
+
+    <!-- Create an aside (sidebar) section with content -->
+    <aside>
+        <h3>Sidebar</h3>
+        <p>Additional content or links can be placed here.</p>
+    </aside>
+
+    <!-- Define a footer section with copyright information -->
+    <footer>
+        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+    </footer>
+    <script src = "script.js"></script>
+</body>
+
+</html>
